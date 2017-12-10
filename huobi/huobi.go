@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"strings"
 
-	"model"
-	log "sirupsen/logrus"
-	"tidwall/gjson"
+	"../model"
+	log "../sirupsen/logrus"
+	"../tidwall/gjson"
 )
 
 const (

@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"time"
 
-	"./model"
-	log "./sirupsen/logrus"
-	"./tidwall/gjson"
+	"../model"
+	log "../sirupsen/logrus"
+	"../tidwall/gjson"
 )
 
 const (
