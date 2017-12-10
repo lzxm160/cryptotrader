@@ -8,11 +8,11 @@ import (
 	"../../cast"
 	"../../huobi"
 	"../../okcoin"
-	log "../../sirupsen/logrus"
 	"../../slack"
 	"../../sort"
 	"../../zb"
 	"github.com/olekukonko/tablewriter"
+	log "github.com/sirupsen/logrus"
 )
 
 type ExchangePrice struct {
