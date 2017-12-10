@@ -17,11 +17,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Akagi201/cryptotrader/model"
-	"github.com/Akagi201/utilgo/enums"
-	log "github.com/sirupsen/logrus"
-	"github.com/spf13/cast"
-	"github.com/tidwall/gjson"
+	"./cast"
+	"./model"
+	log "./sirupsen/logrus"
+	"./tidwall/gjson"
+	"./utilgo/enums"
 )
 
 const (

@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Akagi201/utilgo/conflag"
+	log "./sirupsen/logrus"
+	"./utilgo/conflag"
 	flags "github.com/jessevdk/go-flags"
-	log "github.com/sirupsen/logrus"
 )
 
 // Opts configs

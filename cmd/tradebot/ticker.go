@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Akagi201/cryptotrader/binance"
-	"github.com/Akagi201/cryptotrader/zb"
-	"github.com/pkg/errors"
+	"./binance"
+	"./errors"
+	"./zb"
 	log "github.com/sirupsen/logrus"
 )
 

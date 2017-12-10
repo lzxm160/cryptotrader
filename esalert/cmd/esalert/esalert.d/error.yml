@@ -1,0 +1,21 @@
+- name: alert_error
+  interval: "*/5 * * * * *"
+  search_index: "filebeat-*"
+  search_type: "doc"
+  search: {
+    "query": {
+      "query_string": {
+        "query": "level:error"
+      }
+    }
+  }
+  process:
+    lua_inline: |
+      if ctx.HitCount > 1 then
+        return {
+          {
+            type = "slack",
+            text = "Performing action for alert " .. ctx.Name,
+          }
+        }
+      end

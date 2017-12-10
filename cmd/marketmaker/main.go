@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
+	log "./sirupsen/logrus"
 	"github.com/Akagi201/binancego"
-	log "github.com/sirupsen/logrus"
 )
 
 var (

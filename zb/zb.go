@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Akagi201/cryptotrader/model"
+	"./model"
 	log "github.com/sirupsen/logrus"
 	"github.com/tidwall/gjson"
 )

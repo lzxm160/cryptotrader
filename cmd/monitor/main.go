@@ -5,9 +5,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/Akagi201/cryptotrader/binance"
-	"github.com/nlopes/slack"
-	log "github.com/sirupsen/logrus"
+	"./binance"
+	log "./sirupsen/logrus"
+	"./slack"
 )
 
 func FindChannelByName(rtm *slack.RTM, name string) *slack.Channel {

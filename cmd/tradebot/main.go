@@ -4,8 +4,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Akagi201/utilgo/conflag"
-	log "github.com/sirupsen/logrus"
+	log "./sirupsen/logrus"
+	"./utilgo/conflag"
 )
 
 func main() {

@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Akagi201/cryptotrader/huobi"
-	"github.com/Akagi201/cryptotrader/okcoin"
-	"github.com/Akagi201/cryptotrader/zb"
-	"github.com/goSTL/sort"
-	"github.com/nlopes/slack"
+	"./cast"
+	"./huobi"
+	"./okcoin"
+	log "./sirupsen/logrus"
+	"./slack"
+	"./sort"
+	"./zb"
 	"github.com/olekukonko/tablewriter"
-	log "github.com/sirupsen/logrus"
-	"github.com/spf13/cast"
 )
 
 type ExchangePrice struct {

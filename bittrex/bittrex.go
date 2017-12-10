@@ -5,9 +5,9 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/Akagi201/cryptotrader/model"
-	log "github.com/sirupsen/logrus"
-	"github.com/tidwall/gjson"
+	"./cryptotrader/model"
+	log "./sirupsen/logrus"
+	"./tidwall/gjson"
 )
 
 const (

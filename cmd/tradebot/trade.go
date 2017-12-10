@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	"github.com/pkg/errors"
-	log "github.com/sirupsen/logrus"
+	"./errors"
+	log "./sirupsen/logrus"
 )
 
 type TradeCmd struct {
