@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"./model"
-	log "github.com/sirupsen/logrus"
-	"github.com/tidwall/gjson"
+	log "./sirupsen/logrus"
+	"./tidwall/gjson"
 )
 
 const (
