@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"../model"
-	log "../sirupsen/logrus"
-	"../tidwall/gjson"
+	log "github.com/sirupsen/logrus"
+	"github.com/tidwall/gjson"
 )
 
 const (
