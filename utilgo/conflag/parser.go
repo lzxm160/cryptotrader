@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
+	"../yaml.v2"
 	"github.com/BurntSushi/toml"
-	"gopkg.in/yaml.v2"
 )
 
 func parse(file string, positions ...string) ([]string, error) {
