@@ -1,5 +1,5 @@
 export GOROOT=/usr/local/go
-export GOPATH=/root/gopath
+export GOPATH=/root/gopath:./
 export GOBIN=/root/gopath/bin
 
 rm -fr arbitrage
