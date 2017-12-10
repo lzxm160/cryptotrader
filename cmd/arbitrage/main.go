@@ -1,18 +1,18 @@
 package main
 
 import (
-	"bytes"
-	"fmt"
-	"time"
-
+	log "github.com/sirupsen/logrus"
 	"../../cast"
 	"../../huobi"
 	"../../okcoin"
 	"../../slack"
 	"../../sort"
 	"../../zb"
+	"bytes"
+	"fmt"
 	"github.com/olekukonko/tablewriter"
-	log "github.com/sirupsen/logrus"
+	
+	"time"
 )
 
 type ExchangePrice struct {
