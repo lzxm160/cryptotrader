@@ -7,9 +7,9 @@ import (
 
 	"strconv"
 
-	"github.com/Akagi201/cryptotrader/model"
-	log "github.com/sirupsen/logrus"
-	"github.com/tidwall/gjson"
+	"../model"
+	log "../sirupsen/logrus"
+	"../tidwall/gjson"
 )
 
 const (
