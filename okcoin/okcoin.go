@@ -8,8 +8,8 @@ import (
 	"strconv"
 
 	"../model"
-	log "../sirupsen/logrus"
 	"../tidwall/gjson"
+	log "github.com/sirupsen/logrus"
 )
 
 const (
