@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"../../yaml-v"
+	"../../yaml-2"
 	"github.com/BurntSushi/toml"
 )
 
