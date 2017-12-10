@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	log "../../sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"../../utilgo/conflag"
 	flags "github.com/jessevdk/go-flags"
 )
