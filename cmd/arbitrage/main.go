@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	"./cast"
-	"./huobi"
-	"./okcoin"
-	log "./sirupsen/logrus"
-	"./slack"
-	"./sort"
-	"./zb"
+	"../../cast"
+	"../../huobi"
+	"../../okcoin"
+	log "../../sirupsen/logrus"
+	"../../slack"
+	"../../sort"
+	"../../zb"
 	"github.com/olekukonko/tablewriter"
 )
 
